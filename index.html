@@ -97,6 +97,12 @@ canvas {
 
 <div class="container">
     <h1 id="question"></h1>
+    <p id="loveMessage" style="font-size: 28px; margin-top: 20px; color: white; max-width: 700px;">
+  From the moment you came into my life, everything became brighter, happier, and more beautiful. 💖  
+  You make my world special.  
+  So today, I just want to ask you something very important...  
+  Will you spend this year and every other with me? 🥺✨
+    </p>
     <div class="buttons">
         <button id="yes">Yes 💘</button>
         <button id="no">No 😢</button>
@@ -115,7 +121,7 @@ const body = document.body;
 
 let yesScale = 1;
 let index = 0;
-const text = "Piyush, will you be my Valentine? 💖";
+const text = "Piyush, will you be my Valentine?😽💖";
 
 // Typing animation
 function type() {
@@ -197,7 +203,7 @@ yesBtn.addEventListener("click",()=>{
     setTimeout(()=>{
         body.innerHTML=`
         <div style="display:flex;justify-content:center;align-items:center;height:100vh;background:linear-gradient(135deg,#ff2e63,#ff8fa3);color:white;text-align:center;">
-        <h1 style="font-size:3rem;">YAYYYY PIYUSH!!! 💕🎆💖<br>You said YES!!! 🥰</h1>
+        <h1 style="font-size:3rem;"> You're the sweetest, most lovely man I could ever ask for. You are my dream come true. I LOVE YOU TO THE MOON AND BACK. TILL MY SOUL RESIDES AND IN MY EACH AND EVERY BREATH I'LL BE WITH YOU, PIYUSH!!! 💕🎆💖<br>You said YES!!! 🥰</h1>
         </div>`;
     },2000);
 });
